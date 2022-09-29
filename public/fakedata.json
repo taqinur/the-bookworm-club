@@ -1,12 +1,62 @@
 [
     {
-        "id": "124",
+        "id": "12024",
         "category": "Books",
         "name": "Fantasy",
-        "description": "Addidas",
+        "description": "The most obvious benefits of fantasy is that it allows readers to experiment with different ways of seeing the world. It takes a hypothetical situation and invites readers to make connections between this fictive scenario and their own social reality.",
+        "time": 5,
+        "img": "https://images.wallpaperscraft.com/image/single/book_clouds_fantasy_125653_1600x900.jpg",
+        "shipping": 5,
+        "quantity": 0
+    },
+    {
+        "id": "12575",
+        "category": "Books",
+        "name": "Fiction",
+        "description": "By taking us into another world, it opens our minds to new ideas and possibilities that definitely help us experience and analyze the world through others' lives. This practice strengthens our mind and helps us in understanding new things.",
         "time": 4,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "img": "https://images.wallpaperscraft.com/image/single/book_photoshop_man_136423_1600x900.jpg",
         "shipping": 1,
         "quantity": 0
-      }
+    },
+    {
+        "id": "1263",
+        "category": "Books",
+        "name": "Thriller",
+        "description": "Thrillers never fail to get your heart pumping, making you turn the page at warp speed while also delivering an oddly satisfying uneasiness about what's to come.",
+        "time": 3,
+        "img": "https://static01.nyt.com/images/2019/10/27/books/review/27Thrillers-Pochoda/27Thrillers-Pochoda-videoSixteenByNineJumbo1600.jpg",
+        "shipping": 3,
+        "quantity": 0
+    },
+    {
+        "id": "12514",
+        "category": "Books",
+        "name": "Biography",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events.",
+        "time": 2,
+        "img": "https://i.pinimg.com/originals/ac/d5/69/acd5695bd48b3b831a944360d5d80266.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "15424",
+        "category": "Books",
+        "name": "Novella",
+        "description": "A novella is a narrative prose fiction whose length is shorter than most novels, but longer than most short stories. The English word novella derives from the Italian novella meaning a short story related to true facts.",
+        "time": 6,
+        "img": "https://images.wallpaperscraft.com/image/single/books_shelf_collection_119979_1600x900.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "12544",
+        "category": "Books",
+        "name": "Personal Development",
+        "description": "Whether the focus is on emotional well-being, finances, or spirituality, self-help books center on encouraging personal improvement and confidence.",
+        "time": 1,
+        "img": "https://undsgn.com/wp-content/uploads/2018/06/xy55bl5mzam-uai-1600x900.jpg",
+        "shipping": 1,
+        "quantity": 0
+    }
 ]
