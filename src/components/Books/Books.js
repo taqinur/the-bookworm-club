@@ -3,6 +3,7 @@ import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Book from '../Book/Book';
 import './Books.css';
+import List from '../List/List';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -62,6 +63,7 @@ const Books = () => {
                         <span className="break-5">5</span> hrs
                     </button>
                 </div>
+                <List></List>
             </div>
         </div>
     );

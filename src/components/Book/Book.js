@@ -4,6 +4,7 @@ import './Book.css';
 const Book = (props) => {
     const { handleAddToList, book} = props;
    const {name, description, time, img} = props.book; 
+   
     return (
         <div className='book'>
             <img src={img} alt="" />
