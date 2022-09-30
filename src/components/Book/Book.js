@@ -2,6 +2,7 @@ import React from 'react';
 import './Book.css';
 
 const Book = (props) => {
+    const { handleAddToList, book} = props;
    const {name, description, time, img} = props.book; 
     return (
         <div className='book'>
@@ -11,7 +12,7 @@ const Book = (props) => {
                 <p>{description}</p>
                 <h4>Time Required: {time} hours</h4>
             </div>
-            <button className='btn-cart'>
+            <button onClick={ () =>props.handleAddToList(book)} className='btn-cart'>
                 <p>Add to list</p>
             </button>
         </div>

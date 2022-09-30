@@ -9,6 +9,10 @@ const Books = () => {
             .then(res => res.json())
             .then(data => setBooks(data))
         },[])
+
+    const handleAddToList = (book) => {
+            console.log('a');
+           }
         
     return (
         <div className='body-container'>
@@ -16,7 +20,9 @@ const Books = () => {
                 {
                     books.map(book => 
                     <Book key={book.id}
-                    book ={book}></Book>)
+                    book ={book}
+                    handleAddToList = {handleAddToList}
+                    ></Book>)
                 }
             </div>
             <div className="personal-info">
