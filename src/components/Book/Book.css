@@ -1,6 +1,8 @@
 .book{
+    background-color: white;
+
     width: 310px;
-    height: 500px;
+    height: 480px;
     border: 1px solid gray;
     border-radius: 10px;
     margin-top: 30px;
@@ -33,5 +35,10 @@
     bottom: 0;
 }
 .btn-cart:hover{
-    background-color: blue;
+    background-color: rgb(65, 62, 231);
+}
+
+
+.personal-info-container{
+    background-color: aliceblue;
 }

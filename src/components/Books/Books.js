@@ -4,6 +4,8 @@ import './Books.css';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
+    const [list, setList] = useState([]);
+
         useEffect( () =>{
             fetch('fakedata.json')
             .then(res => res.json())
@@ -11,7 +13,9 @@ const Books = () => {
         },[])
 
     const handleAddToList = (book) => {
-            console.log('a');
+            console.log(book);
+            const newList = [...list, book];
+            setList(newList);
            }
         
     return (
@@ -25,8 +29,9 @@ const Books = () => {
                     ></Book>)
                 }
             </div>
-            <div className="personal-info">
+            <div className="personal-info-container">
                 <h5>Personal Info</h5>
+                <p>Excercise Time: {list.length}</p>
             </div>
         </div>
     );
