@@ -3,6 +3,7 @@ import './List.css';
 
 const List = (props) => {
     const { handleAddToList} = props;
+    // console.log(handleAddToList);
 //     let totalTime = 0;
 //     for (const readingTime of time){
 //     totalTime = totalTime + readingTime;

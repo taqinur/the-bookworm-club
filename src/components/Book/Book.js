@@ -4,7 +4,6 @@ import './Book.css';
 const Book = (props) => {
     const { handleAddToList, book} = props;
    const {name, description, time, img} = props.book; 
-   console.log(handleAddToList);
    
     return (
         <div className='book'>

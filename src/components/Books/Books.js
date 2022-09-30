@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Book from '../Book/Book';
 import './Books.css';
 import List from '../List/List';
+import QA from '../QA/QA';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -31,6 +32,7 @@ const Books = () => {
                     handleAddToList = {handleAddToList}
                     ></Book>)
                 }
+                <QA></QA>
             </div>
             <div className="personal-info-container">
                 <h2>Taqinur Tahmid</h2>
