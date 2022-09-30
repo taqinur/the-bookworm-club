@@ -2,7 +2,7 @@ import React from 'react';
 import './List.css';
 
 const List = (props) => {
-    console.log(props.time);
+    const { handleAddToList} = props;
 //     let totalTime = 0;
 //     for (const readingTime of time){
 //     totalTime = totalTime + readingTime;
@@ -22,7 +22,11 @@ const List = (props) => {
                 <div>
                     <h4>Break Time</h4>
                 </div>
+                <div>
+                    
+                </div>
             </div>
+            <button className='btn-complete'>Study Completed</button>
         </div>
     );
 };

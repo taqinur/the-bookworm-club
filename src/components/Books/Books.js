@@ -16,8 +16,8 @@ const Books = () => {
         },[])
 
     const handleAddToList = (book) => {
-            console.log(book);
             const newList = [...list, book];
+            console.log(newList);
             setList(newList);
            }
         
@@ -48,19 +48,19 @@ const Books = () => {
                 <h3>Add A Break</h3>
                 <div className="break-buttons">
                     <button>
-                        <span className="break-1">1</span> hr
+                        <span className="break">1</span> hr
                     </button>
                     <button>
-                        <span className="break-2">2</span> hrs
+                        <span className="break">2</span> hrs
                     </button>
                     <button>
-                        <span className="break-3">3</span> hrs
+                        <span className="break">3</span> hrs
                     </button>
                     <button>
-                        <span className="break-4">4</span> hrs
+                        <span className="break">4</span> hrs
                     </button>
                     <button>
-                        <span className="break-5">5</span> hrs
+                        <span className="break">5</span> hrs
                     </button>
                 </div>
                 <List></List>
