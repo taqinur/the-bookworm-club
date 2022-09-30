@@ -1,6 +1,5 @@
 .book{
     background-color: white;
-
     width: 310px;
     height: 480px;
     border: 1px solid gray;
@@ -39,6 +38,3 @@
 }
 
 
-.personal-info-container{
-    background-color: aliceblue;
-}
